@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Teko:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+tr:hover {background-color: LightGrey;}
+
+#title {
+    font-size:50px;
+}
+
+
+
+
+h1 {
+	color: #4169E1; 
+  font-family: "Teko", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+p {
+	color: #1e3504;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-style: normal;		
+}
+
+.side-by-side {
+display: flex;
+
+}
+
+.side-by-side img {
+  flex: 25.55%;
+  padding: 5px;
+}
+
+body {
+	max-width: 800px;
+	margin: auto;
+	background-color: #F5F5DC;
+}
+
+th, td {
+	color: #4169E1;
+	text-align: center;
+}
+
+h2 {
+  font-size: 35px;
+}
