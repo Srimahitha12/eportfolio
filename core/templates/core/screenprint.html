@@ -1,6 +1,5 @@
-{% load static %}
 <!DOCTYPE html>
-
+{% load static %}
 <html lang=en>
 
     <head>
@@ -14,8 +13,8 @@
 
 <nav>
   <ul>
-   <li><a href"https://esumsnhps.net">About me</a></li>
-   <li><a href="Srimahitha12.pythonanywhere.com/blackbox">3D Modeling and Innovation</a></li>
+   <li><a href=" ">About me</a></li>
+   <li><a href="blackbox">3D Modeling and Innovation</a></li>
    <li><strong>Screenprinting and Graphic Design</strong></li>
    <li><a href="#">Genetics and Cinematography</a></li>
   </ul>
@@ -35,9 +34,9 @@
 <h1>Step 3:Using Photoshop</h1>
 <p>Next, we had to edit our photos and create our printing designs on photoshop. This meant removing backgrounds, adding paint/drawing designs, and cutting out parts we didn’t want. This was also where we included our quote. After searching for quotes regarding climate change, I decided to use “The climate is changing, so why won’t we?”. We then added our quotes to our designs. I added the earth and fire in photoshop. I initially wanted to include a photo of the earth on fire. But, I ended up having to use the drawing tool as our designs could only use up to 3 colors (each color = 1 frame, so too many colors would be way too much). I enjoyed this step as well, as I found finding brushes and specific colors to use to be fun. </p>
 <div class="side-by-side">
-	<img src="srimahithabrown.webp" alt="The brown layer of the design" width="200">
-	<img src="srimahithablue.webp" alt="The blue layer of the design" width="200">
-	<img src="srimahithaorange.webp" alt="The orange layer of the design" width="200">
+	<img src="{% static 'core/srimahithabrown.webp' %}" alt="The brown layer of the design" width="200">
+	<img src="{% static 'core/srimahithablue.webp' %}" alt="The blue layer of the design" width="200">
+	<img src="{% static 'core/srimahithaorange.webp' %}" alt="The orange layer of the design" width="200">
 
 </div>
 
